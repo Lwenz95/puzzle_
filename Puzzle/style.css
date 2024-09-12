@@ -1,0 +1,307 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 3vw auto auto auto;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.bla {
+  font: 1em sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  color: #727272;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+p .text {
+  display: block;
+  color: #000;
+  font-size: 1em;
+  text-align: left;
+  padding-left: 15px;
+  position: relative;
+  background: transparent !important;
+  z-index: 2;
+  text-shadow: 1px 1px grey;
+}
+
+
+.jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4, .jigsaw5, .jigsaw6, .jigsaw7 {
+  width: 15em;
+  height: 10em;
+  position: relative;
+  -webkit-border-radius: 1.2em;
+  -moz-border-radius: 1.2em;
+  -o-border-radius: 1.2em;
+  cursor: pointer;
+  box-shadow: 4px 4px 6px 0px;
+  -ms-border-radius: 1.2em;
+  border-radius: 1.2em;
+  transition: ease-in 10ms;
+  -webkit-transition: ease-in 10ms;
+  -moz-transition: ease-in 10ms;
+  -ms-transition: ease-in 10ms;
+  -o-transition: ease-in 10ms;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.jigsaw1,
+.jigsaw1 span {
+  background-color: rgb(0, 176, 182);
+  background-size: 200px 200px;
+  background-position: 0 0;
+}
+
+.jigsaw2,
+.jigsaw2 span {
+  background-color: #182fff; 
+}
+
+.jigsaw3,
+.jigsaw3 span {
+  background-color: #00be00; 
+}
+
+.jigsaw4,
+.jigsaw4 span {
+  background-color: #f0e001; 
+}
+
+.jigsaw5,
+.jigsaw5 span {
+  background-color: #00c6a2; 
+}
+
+.jigsaw6,
+.jigsaw6 span {
+  background-color: #727272; 
+}
+
+.jigsaw7,
+.jigsaw7 span {
+  background-color: #ad007f; 
+}
+
+.text {
+  display: block;
+  color: #000000;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+  padding: 3px 5px 3px 10px;
+  /* padding-right: 10px; */
+  position: relative;
+  background: transparent !important;
+  text-shadow: #ffffff 0px 1px 4px;
+}
+
+.jigsaw1 .t, .jigsaw2 .t, .jigsaw3 .t, .jigsaw4 .t, .jigsaw5 .t, .jigsaw6 .t, .jigsaw7 .t {
+  width: 2.7em;
+  height: 1.8em;
+  position: absolute;
+  top: -1.5em;
+  left: 6em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  -o-border-radius: 4em;
+  -ms-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .t_1,
+.jigsaw2 .t_1,
+.jigsaw3 .t_1,
+.jigsaw4 .t_1,
+.jigsaw5 .t_1,
+.jigsaw6 .t_1,
+.jigsaw7 .t_1 {
+  width: 2.7em;
+  height: 1.8em;
+  position: absolute;
+  top: -1.5em;
+  left: 6em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  -o-border-radius: 4em;
+  -ms-border-radius: 4em;
+  border-radius: 4em;
+  box-shadow: 4px 4px 6px 0px;
+  z-index: -1;
+}
+
+.jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r, .jigsaw4 .r, .jigsaw5 .r, .jigsaw6 .r, .jigsaw7 .r {
+  width: 1.8em;
+  height: 2.7em;
+  position: absolute;
+  top: 3.6em;
+  left: 14.7em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  -o-border-radius: 4em;
+  -ms-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .r_1,
+.jigsaw2 .r_1,
+.jigsaw3 .r_1,
+.jigsaw4 .r_1,
+.jigsaw5 .r_1,
+.jigsaw6 .r_1,
+.jigsaw7 .r_1 {
+  width: 1.8em;
+  height: 2.6em;
+  position: absolute;
+  top: 3.6em;
+  left: 14.7em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  -o-border-radius: 4em;
+  -ms-border-radius: 4em;
+  border-radius: 4em;
+  box-shadow: 4px 4px 6px 0px;
+  z-index: -1;
+}
+
+.jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b, .jigsaw4 .b, .jigsaw5 .b, .jigsaw6 .b, .jigsaw7 .b { 
+  width: 2.7em;
+  height: 1.8em;
+  position: absolute;
+  top: 9.7em;
+  left: 6em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .b_1,
+.jigsaw2 .b_1,
+.jigsaw3 .b_1,
+.jigsaw4 .b_1,
+.jigsaw5 .b_1,
+.jigsaw6 .b_1,
+.jigsaw7 .b_1 {
+  width: 2.7em;
+  height: 1.8em;
+  position: absolute;
+  top: 9.7em;
+  left: 6em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  box-shadow: 4px 4px 6px 0px;
+  z-index: -1;
+
+}
+
+.jigsaw1 .l_1,
+.jigsaw2 .l_1,
+.jigsaw3 .l_1,
+.jigsaw4 .l_1,
+.jigsaw5 .l_1,
+.jigsaw6 .l_1,
+.jigsaw7 .l_1 {
+  width: 1.8em;
+  height: 2.6em;
+  position: absolute;
+  top: 3.6em;
+  left: -1.6em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  box-shadow: 4px 4px 6px 0px;
+  z-index: -1;
+
+}
+
+.jigsaw1 .l, .jigsaw2 .l, .jigsaw3 .l, .jigsaw4 .l, .jigsaw5 .l, .jigsaw6 .l, .jigsaw7 .l { 
+  width: 1.8em;
+  height: 2.6em;
+  position: absolute;
+  top: 3.6em;
+  left: -1.6em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1:hover, .jigsaw2:hover, .jigsaw3:hover, .jigsaw4:hover, .jigsaw5:hover, .jigsaw6:hover, .jigsaw7:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  z-index: 1;
+  box-shadow: none;
+}
+
+.jigsaw:hover .t_1, .jigsaw:hover .r_1, .jigsaw:hover .b_1, .jigsaw:hover .l_1 {
+  display: none;
+}
+
+.jigsaw {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.jigsaw img {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0s ease 0.5s;
+  position: absolute;
+  z-index: -2;
+  width: 150%;
+  height: auto;
+  display: none;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+}
+
+.jigsaw img.show {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease, visibility 0s ease 0s; /* Reset delay for showing */
+}
+
+.jigsaw:hover img,
+.jigsaw:focus img {
+  display: block;
+  opacity: 1;
+  z-index: 3;
+}
+
+.jigsaw:not(:hover) img,
+.jigsaw:not(:focus) .jigsaw {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0s ease 0.5s; /* Adjust transition delays */
+}
